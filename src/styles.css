@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+/* Стили для шапки */
+.header {
+    background: #ff2d2d;  /* Красный фон как на Tilda */
+    color: white;
+    padding: 15px 0;
+    position: fixed;  /* Чтобы шапка была всегда сверху */
+    width: 100%;
+    top: 0;
+    z-index: 1000;    /* Чтобы шапка была поверх других элементов */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.phone {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.phone:hover {
+    text-decoration: underline;
+}
